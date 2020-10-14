@@ -1,0 +1,366 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style> 
+body > div.page-wrapper > header > div.panel.wrapper{background-color: #000 !important;}
+
+
+#ui-id-2{background-color: #000 !important;
+border-radius: 5px;
+padding: 10px;}
+
+.minicart-wrapper .action.showcart:before{color:#000 !important;}
+
+#store\.menu{background-color: #fff;}
+
+.navigation .level0 > .level-top {color: #fff !important;}
+
+#maincontent{box-shadow: 0 5px 5px grey;}
+
+.copyright{
+    background-color: #000;}
+
+#newsletter-validate-detail > div.actions > button{
+background: #000;
+border: 1px solid #000;
+}
+
+#newsletter-validate-detail > div.actions > button:hover{
+background: #000;
+border: 1px solid #000;
+}
+
+.mgz-child:not(:last-child) > .mgz-element-inner {
+padding: 30px;
+border-radius: 5px;
+}
+
+#narrow-by-list > div.filter-options-item.allow.active > div.filter-options-content > ol{max-height: 100px !important;
+overflow-y: auto !important;
+}
+
+.mgz-element-column > .mgz-element-inner { padding: 30px;
+border-radius: 5px; }
+
+/* .mgz-element.r0c27he .newsletter-title {
+font-size: 30px; }
+.minicart-wrapper .action.showcart:before {
+color:#000;
+} */
+
+
+.mgz-element-newsletter_form .newsletter-description {
+    margin-bottom: 10px;
+    color: #fff !important;
+}
+
+#news-home > div > div.mgz-newsletter-form-wrapper > form > div.actions > button:hover{
+color: #fff !important;
+background-color:#ff5501 !important;
+}
+
+#news-home > div > div.mgz-newsletter-form-wrapper > form > div.actions > button{
+color: #000000 !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    border-style: solid;
+}
+
+.yss7y9j-s {
+    text-align: center;
+    padding: 15px!important;
+    background-color: #000000 !important;
+    border-radius: 6px;
+}
+
+.action.primary{
+background: #000 !important;
+border-color: #000 !important;
+}
+
+.action.primary:hover{
+background: #ff5501 !important;
+border-color: #ff5501 !important;
+}
+
+._keyfocus *:focus, input:not([disabled]):focus, textarea:not([disabled]):focus, select:not([disabled]):focus{
+box-shadow: 0 0 3px 1px #ff5501 !important;
+}
+
+
+.p9j7byu-s {border-radius: 10px;}
+
+.main_des {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 3px grey inset;
+    border-radius: 5px;
+    border: 3px inset coral;
+    background-image: linear-gradient(to right, white, #f2f2f2);}
+
+.body_left {
+    flex-grow: 1;
+    color: black;
+}
+
+.first {
+    flex-grow: 1;
+}
+
+.second {
+    flex-grow: 1;
+}
+
+.third {
+    flex-grow: 1;
+}
+
+.dropbtn {
+    background-color: #f2f2f2;
+    margin: 4px 0;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: left;
+    font-weight: bold;
+list-style: none;
+}
+
+.body_left p {
+    font-family: montserrat;
+    border-bottom: 1px solid grey;
+    width: 180px;
+    font-weight: 600;
+}
+
+.sub_body img, .sub_body video {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.go_right > img {
+    border-radius: 10px;
+    width: 80%;
+    align: right;
+}
+
+.body_right {
+    flex-basis: 800px;
+    flex-grow: 3;
+}
+
+.sub_body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    justify-content: space-between;
+}
+
+
+.main_body {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sub_body img:hover, .sub_body video:hover {
+    animation-name: read;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.sub_body img, .sub_body video {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#maincontent > div.columns > div > div.magezon-builder > div.ftdyjjc.mgz-element.mgz-element-row.full_width_row > div > div > div > div > div > div > div.main_body > div.body_left.more_width > ul{
+list-style: none;
+}
+
+.dropdown-content {
+    display: none;
+    margin-left: 40px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    line-height: 15px;
+    z-index: 1 !important;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#mp-storelocator-header > div > img.mp_storelocator_logo{
+display:none;
+}
+</style>
+
+<!-- additional styles -->
+<link rel="stylesheet" href="https://www.essenza.ng/slide_extra.css">
+<link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+<!-- endof additional styles -->
+
+<p id="deliver" style="text-align: center; background-color: #E65C00; margin-bottom: 0; color: white; padding:10px; z-index:99; ">✨ NOTICE:- DUE TO COVID-19: STANDARD DELIVERY IS NOW FREE.<button onclick="disappear()" style="color: black; border: 1px solid black; padding: 2px; display: inline; float: right; margin-right: 5px; border-radius: 10px;">X</button></p>
+
+
+<script>
+function disappear(){
+   document.querySelector("#deliver").style.display = "none";
+}
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TXD7VBV');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134693279-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-134693279-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 708551426 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-708551426"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-708551426');
+</script>
+<!-- End Global site tag code -->
+
+<!-- Event snippent -->
+<script>
+  gtag('event', 'page_view', {
+    'send_to': 'AW-708551426',
+    'value': 'replace with value',
+    'items': [{
+      'id': 'replace with value',
+      'location_id': 'replace with value',
+      'google_business_vertical': 'local'
+    }, {
+      'id': 'replace with value',
+      'google_business_vertical': 'retail'
+    }]
+  });
+</script>
+<!-- End of event snippet -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2418866835107631', {
+em: 'insert_email_variable'
+});
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2418866835107631&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<!-- START Google Merchant Verification -->
+<meta name="google-site-verification" content="Qr1TBWS9EMJo4fQIzg3k26d5TODupnEz889hvABDT_A" />
+<!-- END Google Merchant Verification -->
+
+<!-- START OF JSON SCHEMA-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Persona-Care-and-Beauty-Store",
+  "name": "Essenza",
+  "image": "https://www.essenza.ng/media/essenza_logo_web__.jpg",
+  "@id": "",
+  "url": "https://www.essenza.ng",
+  "telephone": "0906227740",
+  "priceRange": "5000 - 120000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Greenville plaza. No. 15, block 20. Admiralty way, Lekki Phase 1",
+    "addressLocality": "Lagos",
+    "postalCode": "106104",
+    "addressCountry": "NG"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 6.448052,
+    "longitude": 3.474784
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Monday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:00",
+    "closes": "21:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/essenzang",
+    "https://www.instagram.com/essenza_ng",
+    "https://www.twitter.com/essenza_ng",
+    "https://www.essenza.ng"
+  ]
+}
+</script>
+<!-- END OF JSON SCHEMA-->
+<!-- START COMPANY SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Essenza International Limited",
+  "alternateName": "Essenza",
+  "url": "https://www.essenza.ng/",
+  "logo": "https://www.essenza.ng/media/essenza_logo_web__.jpg",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "09062277470",
+    "contactType": "customer service",
+    "areaServed": "NG",
+    "availableLanguage": "en"
+  },{
+    "@type": "ContactPoint",
+    "telephone": "0591213345",
+    "contactType": "customer service",
+    "areaServed": "GH",
+    "availableLanguage": "en"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/essenzang",
+    "https://www.instagram.com/essenza_ng/",
+    "https://twitter.com/essenza_ng",
+    "https://www.youtube.com/channel/UCAg0i9eRmmrQZvWyqp2Jldw"
+  ]
+}
+</script>
+<!-- END COMPANY SCHEMA -->
